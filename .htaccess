@@ -1,0 +1,20 @@
+RewriteEngine on
+Options +FollowSymlinks
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*) /?%{QUERY_STRING}
+
+<FilesMatch "(.(sql|ini|log|inc|php|tm)|~)$">
+Order allow,deny
+Deny from all
+Satisfy All
+</FilesMatch>
+
+<FilesMatch "(index.php|FormRoute.php|403.php|404.php|500.php|jon.php)$">
+Allow from all
+</FilesMatch>
+
+ErrorDocument 401 /view/error/401.php
+ErrorDocument 403 /view/error/403.php
+ErrorDocument 404 /view/error/404.php
+ErrorDocument 500 /view/error/500.php

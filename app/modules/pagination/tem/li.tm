@@ -1,0 +1,1 @@
+<li class="page-item %active%"><a class="page-link" %link%>%num_page%</a></li>

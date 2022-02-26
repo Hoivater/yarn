@@ -1,0 +1,85 @@
+#header a{
+  text-decoration: none;
+  color: #c1bdbd;
+  border-style: none  none dotted none;
+}
+#header a:hover{
+  color: #504c4c;
+}
+#header{
+  border-bottom: 1px solid #c1bdbd;
+}
+.main{
+  z-index: 1;
+}
+.main_navi{
+  background: #DFEFFF;
+}
+.left_panel{
+  border-right:1px solid #c1bdbd;
+}
+.fst{
+  position: relative;
+}
+.st
+{
+  position: sticky;
+  top: 0;
+  background: #DFEFFF;
+  z-index: 1000;
+}
+.main{
+  background: #fff;
+}
+
+.information{
+  border-top: 1px solid #c1bdbd;
+  border-bottom: 1px solid #c1bdbd;
+  font-size: 90%;
+}
+.info_green{
+  color: green;
+}
+textarea.commandline{
+  border-radius: 15px;
+  font-size: 110%;
+  background: #303841;
+  padding: 15px;
+  color: #D8DAE2;
+  width: 100%;
+}
+.table_template{
+  overflow-x: scroll; /* Добавляем полосу прокрутки */
+    width: 100%; /* Ширина блока */
+    padding: 5px; /* Поля вокруг текста */
+}
+.para{
+  padding-left: 30px;
+}
+.code_ex pre{
+  font-size: 120%;
+  background: #303841;
+  color: #D8DAE2;
+  border-radius: 10px;
+  padding: 10px;
+}
+input.hidden{
+  display: none;
+}
+/*текстовое оформление*/
+.f_n_table{
+  color: #AC78C7;
+}
+/*--------------------*/
+
+/*АВТОРИЗАЦИЯ И РЕГИСТРАЦИЯ*/
+.table_auth{
+  width: 500px;
+  margin: 20px auto;
+  padding: 15px;
+  border: 1px solid #c1bdbd;
+  border-radius: 15px;
+}
+.message{
+  color: red;
+}

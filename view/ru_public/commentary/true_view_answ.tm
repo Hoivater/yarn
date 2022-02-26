@@ -1,0 +1,1 @@
+<button class="btn btn-danger reply m-3 view_answ" id = "%code%">Показать ответы (%count%) </button>
