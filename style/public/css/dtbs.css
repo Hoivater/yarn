@@ -16,10 +16,10 @@
   overflow-x: scroll;
 }
 
-#models ul, #infosite ul, #partysam ul, #authsite ul {
+#models ul, #infosite ul, #partysam ul, #authsite ul, #file ul {
   font-size: 0;
 }
-#models ul li, #infosite ul li, #partysam ul li, #authsite ul li {
+#models ul li, #infosite ul li, #partysam ul li, #authsite ul li, #file ul li {
   font-size: 14px;
   display: inline-block;
   margin: 0;
@@ -38,6 +38,11 @@
   /* цвет фона, белый */
   min-width: 2300px;
 }
+#file .box_max_size {
+  background: #fff;
+  /* цвет фона, белый */
+  min-width: 1500px;
+}
 
 #partysam .box_max_size {
   background: #fff;
@@ -48,7 +53,7 @@
 #models .box_max_size {
   background: #fff;
   /* цвет фона, белый */
-  min-width: 2300px;
+  min-width: 1500px;
 }
 
 #authsite .box_max_size {
@@ -206,8 +211,11 @@ a.message {
 .main_header{
   position: fixed;
   top: 0;
-  z-index: 10000;
+  z-index: 100;
 }
 .header_menu{
   margin-top: 70px;
+}
+.modal-dialog{
+  z-index: 100000;
 }

@@ -66,13 +66,7 @@
   				<h3 class="description_foto">Добавить пряжу</h3>
   			</a>
   		</li>
-  		<li class="p-2">
-  			<a href = "#" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  				<img src = "/resourse/visible/rect846.png" class="img-fluid">
-  				<h3 class="description_foto">Закончилась</h3>
-  			</a>
-  		</li>
-<!--
+
   		<li class="p-2">
   			<a href = "#">
   				<img src = "/resourse/visible/rect846.png" class="img-fluid">
@@ -92,7 +86,7 @@
   				<img src = "/resourse/visible/rect846.png" class="img-fluid">
   				<h3 class="description_foto">Открытые проекты</h3>
   			</a>
-  		</li> -->
+  		</li>
 
 
   	</ul>
@@ -105,27 +99,20 @@
   <div class="tab-pane fade" id="infosite" role="tabpanel" aria-labelledby="infosite-tab">
   	<div class="box_max_size">
   	<ul>
-
-  		<li class="p-2">
-  			<a href = "#">
-  				<img src = "/resourse/visible/rect846.png" class="img-fluid">
-  				<h3 class="description_foto">Поиск</h3>
-  			</a>
-  		</li>
   		<li class="p-2">
   			<a href = "#" data-bs-toggle="modal" data-bs-target="#exampleModal">
   				<img src = "/resourse/visible/rect846.png" class="img-fluid">
   				<h3 class="description_foto">Вид пряжи</h3>
   			</a>
   		</li>
-
+  		
   		<li class="p-2">
   			<a href = "#">
   				<img src = "/resourse/visible/rect846.png" class="img-fluid">
   				<h3 class="description_foto">Страна</h3>
   			</a>
   		</li>
-
+  		
   		<li class="p-2">
   			<a href = "#">
   				<img src = "/resourse/visible/rect846.png" class="img-fluid">
@@ -149,6 +136,18 @@
   			<a href = "#">
   				<img src = "/resourse/visible/rect846.png" class="img-fluid">
   				<h3 class="description_foto">Цвет</h3>
+  			</a>
+  		</li>
+  		<li class="p-2">
+  			<a href = "#">
+  				<img src = "/resourse/visible/rect846.png" class="img-fluid">
+  				<h3 class="description_foto">Добавить категорию</h3>
+  			</a>
+  		</li>
+  		<li class="p-2">
+  			<a href = "#">
+  				<img src = "/resourse/visible/rect846.png" class="img-fluid">
+  				<h3 class="description_foto">Поиск</h3>
   			</a>
   		</li>
   		
@@ -257,53 +256,52 @@
 <body>
 
 <div class="container main">
+   	<div class="row" data-masonry="{'percentPosition': true }">
+   		
 
 
 
 
 
-   		<div class = 'standart_block  p-2'>
+
+
+
+
+   		<div class = 'standart_block col-md-4 p-2'>
 		   		<div class = 'standart_border  mt-3 mb-2'></div>
-
+		   		<a href  = 'ssil'>
 	                <div class='standart_body_block'>
-	                 <div class="container">
-
-	                        	<h2><a href = "#">Название марки</a> подвид</h2>
+	                  <div class="container">
 	                      <div class="row">
 	                        <div class="col-4 col-md-4">
 	                          <img src = "/resourse/data/user1/d11f00f01a893b04517e5af93907b321.jpeg" class="img-fluid ">	
 	                        </div>
 	                        <div class="col-8 col-md-8">
 	                          <div class="standart_description">
-	                          	<h2>Остаток: 3 шт</h2>
-		                  <div class="link_group">
-
-		                   		<p>Состав:  30% <a href = "#">альпака</a>; 15% <a href = "#">шерсть</a>; 55% <a href = "#">акрил</a></p>
-		                   		<p>Вид пряжи:</p>
-		                   		<p>Страна производства:</p>
-		                   		<p>Тип:</p>
-		                   		<p>Цвет:</p>
-		                  </div>
+	                            <p>Alize Alpaca Royal</p>
+	                            <p>4 мотка</p>
 	                          </div>
                         </div>
                       </div>
 	                  </div>
 	                </div>
+	            </a>
 
 	           <div class="container-fluid">
             	<div class="row">
             		<div class="col-12">
             			
 	                 	<div class="in_basket">
-	                    	<!-- <a href = '3232' class="btn btn-success m-2">Добавить в проект</a>  --><a href = '3232' class="btn btn-danger m-2">Закончилась</a>
-	                    	<a href = '3232' class="btn btn-danger m-2">минус 1</a>
-	                    	<a href = '3232' class="btn btn-success m-2">плюс 1</a>
+	                    	<a href = '3232' class="btn btn-success m-2">Добавить в проект</a> <a href = '3232' class="btn btn-danger m-2">Закончилась</a>
              	 		</div>
             		</div>
             	</div>
             	<div class="row">
             		
             		<div class="col-12">
+		                  <div class="link_group">
+		                    30% <a href = "#">альпака</a>; 15% <a href = "#">шерсть</a>; 55% <a href = "#">акрил</a>, <a href = "#">Турция</a>, <a href = "#">Alize</a>
+		                  </div>
 			                <div class="time text-end">12/15/2022</div>
             		</div>
             	</div>
@@ -323,6 +321,8 @@
 
 
 
+
+   	</div>
 </div>
 
 
